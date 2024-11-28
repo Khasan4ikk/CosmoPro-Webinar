@@ -1,0 +1,1266 @@
+@media (max-width: 1256px) {
+    .slider__btn--prev {
+       display: none;
+    }
+    
+    .slider__btn--next {
+        display: none;
+    
+    }
+
+    .mobile-slider-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+        
+    }
+
+}
+@media (max-width: 1200px) {
+    .training-statistics__wrapper {
+        width: 1100px;
+    }
+/* .container {
+        overflow: hidden;
+    } */
+}
+
+@media (max-width: 1100px) {
+    .bottom-paragraph {
+        margin-bottom: 44px;
+    }
+
+    .main-content__photography img {
+        max-width: 500px;
+        height: 440px;
+    }
+
+    .main-content {
+        padding: 70px 0px 90px 0px;
+    }
+
+    .main-content__info h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 13px;
+    }
+    .bottom-paragraph {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .btn {
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    .training-statistics__wrapper {
+        width: 1000px;
+        padding: 30px 40px;
+    }
+
+    .training-statistics__card-title {
+        font-size: 40px;
+    }
+
+    .training-statistics__card-text {
+        font-size: 20px;
+    }
+    
+
+
+
+}
+@media (max-width: 1000px) {
+    .container {
+        overflow: hidden;
+    }
+    .header__logo p {
+        display: none;
+    }
+    .header__icons {
+        display: none;
+    }
+    .burger {
+        display: flex;
+        order: 1;
+        
+    }
+    .header__contacts {
+        display: flex;
+        order: 4;
+    }
+
+    .header__contacts a {
+        font-size: 20px;
+    }
+
+    .header__logo {
+        order: 3;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .training-statistics__wrapper {
+        width: 900px;
+        padding: 24px 30px;
+    }
+
+    .training-statistics__card-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .training-statistics__card-text {
+        font-size: 17px;
+    }
+    .about {
+        margin-bottom: 150px;
+    }
+
+    .about__image {
+        max-width: 430px;
+    }
+    .about__title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #858585;
+        margin-bottom: 20px;
+    }
+    .about__subtitle {
+        font-size: 24px;
+        line-height: 25.68px;
+        margin-bottom: 40px;
+        
+    }
+    .about__brand {
+font-size: 24px;
+line-height: 25.68px;
+    }
+    .about__text {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 100px;
+        }
+    .about__image img {
+    object-fit: contain; 
+    }
+
+    .training__title {
+        font-size: 30px;
+        margin-bottom: 55px;
+    }
+
+    .training__grid-item-list {
+        display: none;
+    }
+    .training__grid-item-title--courses {
+        margin-bottom: 0px;
+    }
+
+    .training__grid-item-title {
+        font-size: 25px;
+    }
+
+    .training__grid {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+    .training__grid-item {
+        height: 207px;
+        overflow-x: hidden; /* Если необходимо обрезать лишнее содержимое */
+    }
+
+    .training__grid-item {
+        padding: 10px;
+    }
+    .training__content {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    .model-search__title {
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 40px;
+    }
+    .model-search__description {
+font-size: 20px;
+font-weight: 500;
+line-height: 34px;
+margin-bottom: 47px;
+max-width: 456px;
+    }
+
+    .model-search__button {
+        width: 300px;
+        padding: 15px 0px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .model-search__image img {
+        max-width: 464px;
+        /* max-height: 372px; */
+    }
+
+    .model-search__content {
+        max-width: 618px;
+        height: 384px;
+display: block;
+    }
+
+    .card__details {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .about-us__advantage h5 {
+        font-size: 20px;
+        margin-bottom: 13px;
+        height: 33px;
+    }
+
+    .about-us__advantage p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .special-offers__carousel-controls {
+        display: none;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 300px !important;
+        height: auto;
+    }
+
+    .feedback-bell__wrapper {
+        max-width: 900px;
+        padding: 65px 0;
+        margin: 0 auto;
+    }
+
+    .feedback-bell__description {
+        font-size: 20px;
+        max-width: 463px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+
+    .special-offers {
+        margin-bottom: 100px;
+    }
+
+    /* footer */
+    .footer__logo img {
+        max-width: 77px;
+        margin-bottom: 33px;
+    }
+    .footer__phone {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .footer__address {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer__nav-item:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+
+    .footer__nav-item {
+        font-size: 15px;
+    }
+
+    .footer__nav {
+        margin-bottom: 47px;
+    }
+
+    .footer__social-link img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer__social {
+        gap: 32px;
+        margin-bottom: 60px;
+    }
+
+    .footer__info {
+        padding: 30px 60px 60px 60px;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+    .training-statistics__wrapper {
+        width: 800px;
+        padding: 20px 25px;
+    }
+
+    .training-statistics__card-title {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    .owl-carousel__title {
+        padding-top: 200px;
+        margin-bottom: 77px;
+    }
+
+    .masterclass-card__content {
+        height: 380px;
+    }
+    .masterclass-card__details {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .masterclass-card__trainer {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .masterclass-card__title {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 270px !important;
+        height: auto;
+    }
+
+    .about-us {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 830px) {
+    .main-content__btns {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        flex-direction: column;
+        
+    }
+
+    .btn {
+        width: 220px;
+        padding: 14px 25px;
+    font-size: 15px;
+    font-weight: 600;
+
+    }
+
+    .main-content {
+        padding: 50px 0px 30px 0px;
+    }
+
+    .main-content__info h1 {
+
+font-size: 40px;
+line-height: 40px;
+text-align: left;
+margin-bottom: 8px;
+    }
+
+    .bottom-paragraph {
+        max-width: 293px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 20px;
+    }
+
+    .main-content__photography img {
+        max-width: 454px;
+        height: 389px;
+    }
+
+    .card__btn--top {
+        width: 100%;
+    }
+
+    .owl-dots {
+        margin-top: 50px !important;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 250px !important;
+        height: auto;
+    }
+
+    .feedback-bell {
+        margin-bottom: 100px;
+    }
+
+    .card__info {
+        margin-bottom: 10px;
+    }
+
+    .model-search__description {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .training-statistics__wrapper {
+        width: 650px;
+        padding: 15px 15px;
+    }
+
+    .training-statistics__wrapper {
+    top: -20px;
+    }
+    .training__content {
+        margin-bottom: 120px;
+    }
+
+    .master-classes {
+        margin-bottom: 100px;
+    }
+
+    .card__image {
+        height: 55px !important;
+        right: 0px;
+    }
+
+    
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .footer__map,
+    .footer__info {
+        height: 600px; /* Фиксированная высота */
+    }
+
+    #map {
+        height: 100%;
+        max-height: 600px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer__wrapper {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header__contacts a {
+        font-size: 19px;
+    }
+
+    .about__title {
+font-size: 15px;
+    }
+    /* .about__image {
+        max-width: 276px;
+      } */
+    /* .about__image img {
+        max-width: 276px;
+        height: 408px;
+        object-fit: cover;
+
+    } */
+
+    .about__text {
+            font-size: 15px;
+            line-height: 20px;
+    }
+
+    .about__wrapper {
+        padding: 20px;
+        flex-direction: column;
+        gap: 40px;
+        
+    }
+
+    .about {
+        margin-bottom: 90px;
+    }
+
+    .model-search__image img {
+        /* max-width: 276px; */
+        height: 279px;
+    }
+
+    .model-search__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .model-search__description {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 35px;
+        max-width: 337px;
+    }
+
+    .model-search__button {
+        width: 200px;
+        font-size: 15px;
+    }
+    .model-search__content {
+
+        height: auto;
+
+    }
+
+    .master-classes__title {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .master-classes__description {
+        font-size: 20px;
+    }
+
+    .master-classes__header {
+        margin-bottom: 40px;
+    }
+
+    .model-search {
+        margin-bottom: 100px;
+    }
+    .about-us__advantages {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .about-us__advantage {
+        max-width: 642px;
+        padding: 40px 15px 20px 200px;
+        box-shadow: 0px 3px 20px 0px #42424226;
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .numbered-block::after {
+        bottom: 15%;
+        left: 20px;
+        font-size: 150px;
+    }
+
+    .numbered-block:nth-child(2)::before {
+        top: 1%;
+        left: 20px;
+        font-size: 150px;
+    }
+    .owl-carousel .owl-item img {
+        width: 230px !important;
+        height: auto;
+    }
+
+    .about-us {
+        margin-bottom: 85px;
+    }
+
+    .special-offers__wrapper h4 {
+        margin-bottom: 60px;
+    }
+
+    .footer__phone {
+        margin-bottom: 20px;
+    }
+    .footer__privacy-policy {
+        font-size: 15px;
+}
+
+.model-search__wrapper {
+    justify-content: center;
+
+}
+
+}
+
+@media (max-width: 700px)  {
+.master-classes__cards {
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+}
+.masterclass-card__content {
+    height: auto;
+}
+
+.master-classes__header {
+    margin-bottom: 50px;
+}
+
+.owl-carousel .owl-item img {
+    width: 220px !important;
+    height: auto;
+}
+.feedback-bell__wrapper {
+    padding: 30px 0;
+}
+.footer__wrapper {
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+    .footer__info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+    #map {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__phone {
+        text-align: center;
+    }
+
+    .footer__address {
+        text-align: center;
+    }
+
+    .footer__nav-item:not(:last-of-type) {
+        margin-bottom: 18px;
+    }
+
+    .footer__social {
+        margin-bottom: 20px;
+    }
+
+    .footer__info {
+        padding: 10px 30px ;
+    }
+
+    .footer__map {
+        flex: 1;
+    }
+    /* .footer__info {
+        flex: 0;
+    } */
+}
+
+@media (max-width: 675px) {
+    .owl-carousel .owl-item img {
+        width: 210px !important;
+    }
+}
+@media (max-width: 715px) {
+    .main-content__photography img {
+        max-width: 430px;
+        height: 330px;
+    }
+    .training__grid-item-title {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 665px) {
+    .main-content__info h1 {
+        max-width: 300px;
+        font-size: 30px;
+    }
+    .paragraph-up {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+
+        .bottom-paragraph {
+        max-width: 238px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .training-statistics__wrapper {
+        width: 500px;
+        padding: 7px 4px;
+    }
+
+    .training-statistics__card-title {
+        font-size: 16px;
+    }
+
+    .training-statistics__card-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .training-statistics__card {
+        height: 75px;
+    }
+    .owl-carousel__title {
+        padding-top: 125px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+    .owl-carousel .owl-item img {
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 615px) {
+    .main-content__photography img {
+        height: 300px;
+    }
+    .main-content {
+        padding: 10px 0px 30px 0px;
+    }
+    .feedback-bell {
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .training__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .training__grid-item--first { 
+        grid-area: 1 / 1 / 2 / 3; 
+    }
+    
+    .training__grid-item--second { 
+        grid-area: 2 / 1 / 3 / 3; 
+    }
+    
+    .training__grid-item--third { 
+        grid-area: 3 / 1 / 4 / 2; 
+    }
+    
+    .training__grid-item--fourth { 
+        grid-area: 3 / 2 / 4 / 3; 
+    }
+    
+    .training__grid-item--fifth { 
+        grid-area: 4 / 1 / 5 / 3; 
+    }
+
+    .training__grid-item-title--courses {
+        margin-top: auto;
+        text-transform: uppercase;
+        br {
+            display: none;
+        }
+    }
+
+    .training__grid-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .model-search__title {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .training__content {
+        margin-bottom: 100px;
+    }
+    .master-classes {
+        margin-bottom: 80px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 192px !important;
+        height: auto;
+    }
+
+    .special-offers {
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 585px) {
+    .owl-carousel .owl-item img {
+        width: 180px !important;
+    }
+    .about-us {
+        margin-bottom: 50px;
+    }
+    .card__image {
+        height: 55px !important;
+        right: 0px;
+    }
+
+}
+@media (max-width: 576px) {
+    .main-content__photography {
+        display: none;
+    }
+
+    .main-content__small-screen-photo {
+        display: block;
+        
+
+    }
+    .main-content__small-screen-photo img {
+max-width: 233px;
+        height: 196px;
+    }
+
+    .main-content__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content__wrapper {
+        justify-content: center;
+    }
+    .paragraph-up {
+
+font-size: 10px;
+font-weight: 600;
+line-height: 26px;
+text-align: center;
+
+    }
+    .main-content__info h1 {
+font-size: 30px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+max-width: 238px;
+
+    }
+    .bottom-paragraph {
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+text-align: center;
+margin-bottom: 12px;
+
+    }
+
+    .main-content__btns {
+        gap: 8px;
+    } 
+    
+    .main-content {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .btn {
+        width: 140px;
+        padding: 12px 14px;
+        font-size: 10px;
+    }
+
+    .card__btn--top {
+        width: 100%;
+        /* height: 56px; */
+        font-size: 15px;
+    }
+
+    .section-carousel {
+        margin-bottom: 100px;
+    }
+
+
+}
+
+@media (max-width: 545px) {
+    .model-search__image img {
+        height: 230px;
+    }
+
+    .model-search__description {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+    .model-search__button {
+        width: 180px;
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 174px !important;
+    }
+
+    .special-offers {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 515px) {
+    .owl-carousel .owl-item img {
+        width: 163px !important;
+    }
+
+    .special-offers__wrapper h4 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .footer__privacy-policy {
+        font-size: 12px;
+    }
+    .about {
+        margin-bottom: 40px;
+    }
+
+}
+@media (max-width: 500px) {
+    .training-statistics__wrapper {
+
+        flex-direction: column;
+        max-width: 180px;
+        padding: 23px 16px;
+    }
+
+    .owl-carousel__title {
+        padding-top: 325px;
+        margin-bottom: 50px;
+    }
+
+    .training-statistics__card {
+        display: flex;
+        align-items: center;
+    }
+
+    .training-statistics__wrapper {
+        top: -44px;
+    }
+
+    .about__text {
+        margin-bottom: 50px;
+    }
+
+    .about__button {
+        font-size: 15px;
+    }
+
+    .about__button::after {
+        width: 24%;
+    }
+    .model-search__wrapper {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .model-search__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .model-search__description {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+    .model-search__button {
+        margin: 0 auto;
+    }
+
+    .model-search__image {
+        max-width: 360px;
+        height: 130px;
+    }
+    
+    .model-search__image img {
+        width: 360px;
+        height: 130px;
+        object-fit: cover;
+    }
+
+    .training__content {
+        margin-bottom: 55px;
+    }
+
+    .master-classes__cards {
+
+        margin: 0 15px;
+    }
+    .model-search {
+        margin-bottom: 50px;
+    }
+    .about-us__advantage {
+        padding: 25px 15px 20px 200px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 160px !important;
+    }
+    .special-offers .owl-stage-outer {
+        overflow: visible;
+    }
+
+    .special-offers .owl-item img {
+        filter: brightness(0.6);
+        transition: filter 0.3s ease;
+    }
+    
+    .special-offers .owl-item.center img {
+        filter: brightness(1);
+    }
+
+    .masterclass-card__price, .masterclass-card__arrow {
+        padding: 25px 10px;
+    }
+
+    .feedback-bell__title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .feedback-bell__description {
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 273px;
+        margin-bottom: 40px;
+    }
+
+    .feedback-bell__wrapper {
+        padding: 30px 30px;
+    }
+
+    .feedback-bell__input {
+        width: 295px;
+        padding: 15px 23px;
+    }
+
+    .feedback-bell__submit {
+        max-width: 295px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding: 17px 103px;
+    }
+
+    .feedback-bell__form-group--margin-bottom {
+        margin-bottom: 23px;
+    }
+
+    
+
+
+}
+@media (max-width: 480px) {
+    .header__contacts a {
+        font-size: 12px;
+    }
+
+    .header__logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .header__contacts a::before {
+    width: 15px;
+    height: 15px;
+    }
+
+    .header__contacts  a {
+    padding-left: 20px; /*  Отступ для иконки */
+    }
+
+    .header__top {
+        padding: 12px 12px;
+    }
+
+    .header__contacts {
+        display: none;
+    }
+
+    .mobile-slider-btn img {
+        width: 10px;
+    }
+    .mobile-slider-btn {
+        padding: 12px;
+    }
+
+    .training__grid-item-title {
+        font-size: 20px;
+    }
+    .section-carousel {
+        margin-bottom: 60px;
+    }
+
+
+    .about-us__advantage {
+        max-width: 355px;
+        padding: 15px 15px 20px 108px;
+    }
+
+    .about-us__advantage h5 {
+        font-size: 15px;
+        height: 25px;
+    }
+
+    .numbered-block::after {
+        bottom: 15%;
+        left: 10px;
+
+font-size: 144px;
+letter-spacing: -0.09em;
+
+    }
+
+    .numbered-block:nth-child(2)::before {
+        top: 1%;
+        left: 10px;
+        letter-spacing: -0.12em;
+    }
+    .about-us__content h4 {
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+    .master-classes {
+        margin-bottom: 60px;
+    }
+
+    /* .special-offers .owl-carousel {
+        padding: 0;
+        overflow: visible;
+    }
+    
+    .special-offers .owl-stage-outer {
+        overflow: visible;
+    } */
+    .owl-carousel .owl-item img {
+        width: 210px !important;
+    }
+
+    .special-offers__wrapper h4 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 465px) {
+    .owl-carousel .owl-item img {
+        width: 200px !important;
+    }
+
+    .special-offers {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 445px) {
+    .owl-carousel .owl-item img {
+        width: 185px !important;
+    }
+}
+@media (max-width: 430px) {
+    .about {
+        margin-bottom: 35px;
+    }
+    .training__title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about-us {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .owl-carousel .owl-item img {
+        width: 180px !important;
+    }
+}
+@media (max-width: 400px) {
+.training-statistics__card {
+    height: 60px;
+}
+.training-statistics__wrapper {
+    padding: 10px 10px;
+}
+.owl-carousel__title {
+    padding-top: 245px;
+}
+
+.about__subtitle {
+    margin-bottom: 25px;
+}
+
+.about__button::after {
+
+    width: 27%;
+
+   }
+
+   .training__grid-item-title {
+    font-size: 15px;
+}
+.owl-carousel .owl-item img {
+    width: 170px !important;
+}
+
+}
+
+@media (max-width: 380px) {
+    .card {
+        margin: 0 10px;
+    }
+
+    .owl-carousel__title {
+        font-size: 30px;
+    }
+
+    .training-statistics__wrapper {
+        padding: 9px 9px;
+    }
+
+    .model-search__image {
+        width: 340px;
+    }
+    
+    .model-search__image img {
+        width: 340px;
+
+    }
+    
+    .owl-carousel .owl-item img {
+        width: 160px !important;
+    }
+
+}
+
+@media (max-width: 360px) {
+.line1, .line2, .line3 {
+    width: 90%;
+    height: 4px;
+}
+
+.header__contacts  a {
+    font-size: 10px;
+    }
+
+    .header__logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 150px !important;
+    }
+    
+}
+
